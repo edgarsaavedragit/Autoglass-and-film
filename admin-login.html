@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Admin</title>
+  <link rel="icon" href="img/icon.png" type="image/png" />
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+  <a href="index.html" class="back-button">&lt;</a>
+  <div class="logo">
+      <img src="img/logo.png" alt="logo">
+  </div>
+  <div class="login-container">
+    <h2>Iniciar sesión como administrador</h2>
+
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Usuario" required />
+      <input type="password" id="password" placeholder="Contraseña" required />
+      <button type="submit">Entrar</button>
+    </form>
+
+    <p id="loginError" class="error-msg"></p>
+
+    <div class="options">
+      <a href="#" id="showChangePassword">Cambiar contraseña</a>
+    </div>
+
+    <form id="changePasswordForm" class="hidden">
+      <input type="password" id="currentPassword" placeholder="Contraseña actual" required />
+      <input type="password" id="newPassword" placeholder="Nueva contraseña" required />
+      <button type="submit">Actualizar contraseña</button>
+      <p id="changePasswordMsg" class="error-msg"></p>
+    </form>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

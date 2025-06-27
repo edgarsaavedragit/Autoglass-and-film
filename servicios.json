@@ -1,0 +1,22 @@
+[
+  {
+    "titulo": "Polarizado general",
+    "descripcion": "Para puertas, espaldar, laterales y delantero.",
+    "detalle": "Tonalidades: 70%, 50%, 35%, 20%, 5%"
+  },
+  {
+    "titulo": "Venta de vidrios (Solo Lima)",
+    "descripcion": "Para puertas, espaldar, laterales y delantero.",
+    "detalle": "En tienda o a domicilio."
+  },
+  {
+    "titulo": "Venta de vidrios (A nivel nacional)",
+    "descripcion": "Vidrios automotrices al por mayor y menor.",
+    "detalle": "Envío a nivel nacional"
+  },
+  {
+    "titulo": "Venta de herramientas y rollos (A nivel nacional)",
+    "descripcion": "Venta de herramientas y rollos de polarizado para profesionales.",
+    "detalle": "¡Nueva línea de negocio!"
+  }
+]

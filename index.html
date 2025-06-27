@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoglass and Film</title>
+  <link rel="icon" href="img/icon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <a href="https://api.whatsapp.com/send?phone=51933284423&text=Hola%20deseo%20contratar%20tu%20servicio" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+  <nav class="navbar">
+    <div class="hamburger" onclick="toggleMenu(this)">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul id="nav-menu">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#cotizacion">Cotización</a></li>
+      <li><a href="https://wa.me/51933284423" target="_blank">Contacto</a></li>
+      <li><a href="quienes-somos.html">Quiénes somos</a></li>
+    </ul>
+
+    <div class="admin-button-container">
+      <a href="admin-login.html">Administrador</a>
+    </div>
+  </nav>
+
+  <header id="inicio" class="header">
+    <img src="img/logo.png" alt="logo">
+    <h1>AUTOGLASS AND FILM</h1>
+    <p>Parabrisas y Polarizados</p>
+  </header>
+
+  <section class="carousel-container">
+    <div class="carousel">
+      <img src="img/slide1.jpg" class="carousel-slide active" alt="Slide 1">
+      <img src="img/slide2.jpg" class="carousel-slide" alt="Slide 2">
+      <img src="img/slide3.jpg" class="carousel-slide" alt="Slide 3">
+      <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+      <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </section>
+
+  <h2 id="services">Nuestros Servicios</h2>
+
+  <section id="servicios" class="services-container">
+    <!-- Tarjetas de servicio dinámicas -->
+  </section>
+
+  <section id="detalleServicio" class="detalle-servicio" style="display: none;">
+    <button onclick="volver()">← Volver</button>
+    <h2 id="tituloDetalle"></h2>
+    <div id="listaProductos" class="productos-grid"></div>
+  </section>
+
+  <section id="cotizacion" class="cotizacion">
+    <h2 id="solicitud"> Solicita una Cotización</h2>
+    <form id="formCotizacion">
+      <input type="text" placeholder="Nombre completo" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <input type="text" placeholder="Distrito (si es en Lima)" />
+      <select required>
+        <option disabled selected>Selecciona un servicio</option>
+        <option>Polarizado general</option>
+        <option>Venta de vidrios (Solo Lima)</option>
+        <option>Venta de vidrios (A nivel nacional)</option>
+        <option>Venta de herramientas y rollos (A nivel nacional)</option>
+      </select>
+      <textarea placeholder="Comentarios adicionales..." rows="4"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer id="contacto" class="footer">
+    <p>&copy; 2025 Autoglass and Film | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="js/carousel.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

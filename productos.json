@@ -1,0 +1,170 @@
+{
+  "Polarizado general": [
+    {
+      "nombre": "Polarizado - puertas",
+      "precio": "S/ 50",
+      "imagen": "img/productos/puertas.jpg"
+    },
+    {
+      "nombre": "Polarizado - espaldar",
+      "precio": "S/ 45",
+      "imagen": "img/productos/espaldar.jpg"
+    },
+    {
+      "nombre": "Polarizado - laterales",
+      "precio": "S/ 40",
+      "imagen": "img/productos/laterales.jpg"
+    },
+    {
+      "nombre": "Polarizado - delantero (parabrisas)",
+      "precio": "S/ 120",
+      "imagen": "img/productos/delantero.jpg"
+    }
+  ],
+  "Venta de vidrios (Solo Lima)": [
+    {
+      "nombre": "Vidrio - puertas",
+      "precio": "S/ 150",
+      "imagen": "img/productos/puertas.jpg"
+    },
+    {
+      "nombre": "Vidrio - espaldar",
+      "precio": "S/ 180",
+      "imagen": "img/productos/espaldar.jpg"
+    },
+    {
+      "nombre": "Vidrio - laterales",
+      "precio": "S/ 130",
+      "imagen": "img/productos/laterales.jpg"
+    },
+    {
+      "nombre": "Vidrio - delantero (parabrisas)",
+      "precio": "S/ 280",
+      "imagen": "img/productos/delantero.jpg"
+    }
+  ],
+  "Venta de vidrios (A nivel nacional)": [
+    {
+      "nombre": "Vidrio - puertas (por menor)",
+      "imagen": "img/productos/puertas.jpg",
+      "precio": "S/ 160"
+    },
+    {
+      "nombre": "Vidrio - puertas (por mayor)",
+      "imagen": "img/productos/puertas.jpg",
+      "precio": "S/ 140"
+    },
+    {
+      "nombre": "Vidrio - espaldar (por menor)",
+      "imagen": "img/productos/espaldar.jpg",
+      "precio": "S/ 190"
+    },
+    {
+      "nombre": "Vidrio - espaldar (por mayor)",
+      "imagen": "img/productos/espaldar.jpg",
+      "precio": "S/ 170"
+    },
+    {
+      "nombre": "Vidrio - laterales (por menor)",
+      "imagen": "img/productos/laterales.jpg",
+      "precio": "S/ 140"
+    },
+    {
+      "nombre": "Vidrio - laterales (por mayor)",
+      "imagen": "img/productos/laterales.jpg",
+      "precio": "S/ 120"
+    },
+    {
+      "nombre": "Vidrio - delantero (parabrisas) (por menor)",
+      "imagen": "img/productos/delantero.jpg",
+      "precio": "S/ 300"
+    },
+    {
+      "nombre": "Vidrio - delantero (parabrisas) (por mayor)",
+      "imagen": "img/productos/delantero.jpg",
+      "precio": "S/ 260"
+    }
+  ],
+  "Venta de herramientas y rollos (A nivel nacional)": [
+    {
+      "nombre": "Espátula aplicadora de teflón para polarizado (por menor)",
+      "precio": "S/ 25",
+      "imagen": "img/productos/espatula-teflon.jpg"
+    },
+    {
+      "nombre": "Espátula aplicadora de teflón para polarizado (por mayor)",
+      "precio": "S/ 20",
+      "imagen": "img/productos/espatula-teflon.jpg"
+    },
+    {
+      "nombre": "Rociador industrial para instalación de polarizado (por menor)",
+      "precio": "S/ 30",
+      "imagen": "img/productos/rociador.jpg"
+    },
+    {
+      "nombre": "Rociador industrial para instalación de polarizado (por mayor)",
+      "precio": "S/ 25",
+      "imagen": "img/productos/rociador.jpg"
+    },
+    {
+      "nombre": "Cuchilla profesional + 5 repuestos (por menor)",
+      "precio": "S/ 20",
+      "imagen": "img/productos/cuchilla.jpg"
+    },
+    {
+      "nombre": "Cuchilla profesional + 5 repuestos (por mayor)",
+      "precio": "S/ 17",
+      "imagen": "img/productos/cuchilla.jpg"
+    },
+    {
+      "nombre": "Kit básico de herramientas para polarizado (por menor)",
+      "precio": "S/ 85",
+      "imagen": "img/productos/kit-herramientas.jpg"
+    },
+    {
+      "nombre": "Kit básico de herramientas para polarizado (por mayor)",
+      "precio": "S/ 75",
+      "imagen": "img/productos/kit-herramientas.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 5% (50 m) (por menor)",
+      "precio": "S/ 320",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 5% (50 m) (por mayor)",
+      "precio": "S/ 280",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 20% (50 m) (por menor)",
+      "precio": "S/ 310",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 20% (50 m) (por mayor)",
+      "precio": "S/ 270",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 35% (50 m) (por menor)",
+      "precio": "S/ 300",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 35% (50 m) (por mayor)",
+      "precio": "S/ 260",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 50% (50 m) (por menor)",
+      "precio": "S/ 290",
+      "imagen": "img/productos/rollo.jpg"
+    },
+    {
+      "nombre": "Rollo polarizado 50% (50 m) (por mayor)",
+      "precio": "S/ 250",
+      "imagen": "img/productos/rollo.jpg"
+    }
+  ]
+}

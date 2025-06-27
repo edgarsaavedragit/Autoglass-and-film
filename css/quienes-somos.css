@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4faff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #30aff3;
+  text-shadow: 0 0 20px #000;
+  padding: 10rem 1rem;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.sub {
+  margin-top: 0.5rem;
+}
+
+.intro {
+  padding: 2rem 1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.intro h2 {
+  color: #30aff3;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Nueva sección combinada */
+.mision-vision-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.mision-vision {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.mision-vision .item {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00000010;
+}
+
+.mision-vision h3 {
+  color: #30aff3;
+  margin-bottom: 0.5rem;
+}
+
+.video-lateral {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 600px;
+}
+
+.video-lateral video {
+  width: 40%;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00000020;
+}
+
+.trabajos {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.trabajos h2 {
+  color: #30aff3;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.trabajos-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.trabajos-imgs img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #00000020;
+}
+
+.valores-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background-color: #eaf6ff;
+  gap: 3rem;
+}
+
+.valores, .redes-sociales {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.valores h2, .redes-sociales h2 {
+  text-align: center;
+  color: #30aff3;
+  margin-bottom: 1rem;
+}
+
+.valores ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.valores li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.redes img {
+  width: 40px;
+  height: 40px;
+  filter: invert(33%) sepia(52%) saturate(747%) hue-rotate(167deg) brightness(96%) contrast(89%);
+  transition: transform 0.3s ease;
+}
+
+.redes img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #30aff3;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mision-vision-video {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-lateral {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-lateral video {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .trabajos-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trabajos-imgs img {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .redes {
+    gap: 1rem;
+  }
+}
+

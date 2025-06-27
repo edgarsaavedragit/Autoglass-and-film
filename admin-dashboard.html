@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de Administración</title>
+  <link rel="icon" href="img/icon.png" type="image/png">
+  <link rel="stylesheet" href="css/admin-dashboard.css" />
+</head>
+<body>
+  <button class="logout-button" onclick="cerrarSesion()">Cerrar sesión</button>
+
+  <h1>Reporte de Cotizaciones</h1>
+   
+  <div class="cotizaciones-wrapper">
+    <div id="cotizaciones-container"></div>
+
+    <div class="botones-descarga">
+      <button onclick="descargarComoTXT()">Descargar Reporte en TXT</button>
+      <button onclick="descargarComoJSON()">Descargar Reporte en JSON</button>
+    </div>
+  </div>
+
+  <script src="js/admin-dashboard.js"></script>
+</body>
+</html>
